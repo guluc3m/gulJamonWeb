@@ -5,7 +5,7 @@
 
 html {
     width: 100% !important;
-    /*cursor: url("../images/icon/cursor.svg"), auto;*/
+    cursor: url("../images/icon/cursor.svg"), auto;
 }
 
 * {
@@ -14,7 +14,7 @@ html {
 }
 
 a:hover, .nav-link:hover, button:hover {
-    /*cursor: url("../images/icon/pointer.svg"), auto;*/
+    cursor: url("../images/icon/pointer.svg"), auto;
 }
 
 body {
@@ -141,8 +141,8 @@ section {
 #charlas .tab-content {
     max-width: 40vw;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #charlas .talk-desc > div {
@@ -243,6 +243,10 @@ section {
     }
 
     #charlas .tab-content {
+        max-width: none;
+    }
+
+    #charlas .tab-pane > div {
         max-width: none;
     }
 }
